@@ -1,0 +1,62 @@
+html, body{
+  background-color: #F5F5F5;
+  color: #363636;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_logo{
+ width: 50px;
+ height: 50px;
+ margin: 10px
+}
+
+nav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width:80px;
+  height: 100%;
+  background-color: white;
+}
+
+#close{
+  width: 25px;
+}
+
+.welcome{
+  background-color: white;
+}
+
+.budget{
+  box-shadow: ;
+  background-color: white;
+  width: 100px;
+  margin: 5px 0px 0px 0px;
+}
+
+.accounts_images{
+  width:50px;
+}
+
+table{
+  margin: 5px 0px 0px 0px;
+  background-color: white;
+}
+
+button{
+  background-color: #1CA3BA;
+  color: white;
+}
+
+.transactions, tr{
+  border-collapse: collapse;
+  border-bottom: 2px solid #CCCCCC;
+}
+
+.right_body{
+  position: relative;
+  left: 90px;
+}
