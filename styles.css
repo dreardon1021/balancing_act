@@ -2,15 +2,21 @@ html, body{
   background-color: #F5F5F5;
   color: #363636;
   height: 100%;
-  min-height: 100%;
+  min-height: 1000px;
   margin: 0;
   padding: 0;
+  font-family: 'Biryani', sans-serif;
 }
 
 .nav_logo{
  width: 50px;
  height: 50px;
  margin: 10px
+}
+
+#center_nav{
+  position: absolute;
+  top: 180px;
 }
 
 nav{
@@ -23,18 +29,35 @@ nav{
 }
 
 #close{
-  width: 25px;
+  position: absolute;
+  width: 10px;
 }
 
 .welcome{
-  background-color: white;
+  position: relative;
+  width: 40%;
+  height: 100px;
+  background: linear-gradient(90deg, #8ED1DC, #E3F4F6)
 }
 
-.budget{
-  box-shadow: ;
-  background-color: white;
-  width: 100px;
-  margin: 5px 0px 0px 0px;
+.budget {
+    box-shadow: ;
+    background-color: white;
+    width: 12.87%;
+    margin: 10px 10px 10px 0px;
+    float: left;
+}
+
+.budget_container{
+  position: relative;
+  display: block;
+  background-color: black;
+  width: 100%;
+}
+
+#page{
+  position: relative;
+  left: 100px;
 }
 
 .accounts_images{
@@ -49,14 +72,23 @@ table{
 button{
   background-color: #1CA3BA;
   color: white;
+  border-radius: 5px;
 }
 
-.transactions, tr{
+.transactions, .transactions-row{
   border-collapse: collapse;
   border-bottom: 2px solid #CCCCCC;
 }
 
-.right_body{
-  position: relative;
-  left: 90px;
+h3{
+}
+
+.clearfix{
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.account{
+  width: 40%;
 }
