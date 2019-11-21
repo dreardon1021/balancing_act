@@ -16,7 +16,7 @@ html, body{
 
 #center_nav{
   position: absolute;
-  top: 180px;
+  top: 200px;
 }
 
 nav{
@@ -35,7 +35,7 @@ nav{
 
 .welcome{
   position: relative;
-  width: 40%;
+  width: 98%;
   height: 100px;
   background: linear-gradient(90deg, #8ED1DC, #E3F4F6)
 }
@@ -43,7 +43,7 @@ nav{
 .budget {
     box-shadow: ;
     background-color: white;
-    width: 12.87%;
+    width: 31.5%;
     margin: 10px 10px 10px 0px;
     float: left;
 }
@@ -55,7 +55,7 @@ nav{
   width: 100%;
 }
 
-#page{
+main{
   position: relative;
   left: 100px;
 }
@@ -73,6 +73,7 @@ button{
   background-color: #1CA3BA;
   color: white;
   border-radius: 5px;
+  width: 200px;
 }
 
 .transactions, .transactions-row{
@@ -90,5 +91,22 @@ h3{
 }
 
 .account{
-  width: 40%;
+  width: 98%;
+}
+
+
+.transactions-container{
+  display: inline-block;
+  width: 45%;
+  position: relative;
+  top: 101px;
+}
+
+.left_body{
+  display: inline-block;
+  width:40%;
+}
+
+.account-cell{
+  width: 30%;
 }
