@@ -19,6 +19,7 @@ main{
  width: 35px;
  height: 35px;
  margin-top:10px;
+ margin-left: 8px;
 }
 
 #elephant{
@@ -37,7 +38,7 @@ nav{
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 50px;
+  width: 60px;
   height: 100%;
   background-color: white;
 }
@@ -110,15 +111,23 @@ button{
 }
 
 .transactions-container{
-  display: inline-block;
-  width: 45%;
-  position: relative;
-  top: 217px;
-  margin-left: 30px;
+display: inline-block;
+width: 38%;
+position: relative;
+padding: 15px;
+top: 252px;
+margin-left: 30px;
+background-color: white;
+box-shadow:10px 5px 5px rgba(0,0,0,0.05)
 }
 
 .transactions-td{
   padding: 5px;
+}
+
+.transactions {
+    position: relative;
+    left: 23px;
 }
 
 .transactions-td-dash-inflow{
@@ -131,12 +140,9 @@ button{
   right: 40px;
 }
 
-
-
 .left_body{
   display: inline-block;
   width:40%;
-  position: relative;
 }
 
 .account-cell-image{
@@ -167,6 +173,16 @@ h3{
   left: 20px;
 }
 
-.account, .transactions, .budget{
+.account, .budget{
   box-shadow:10px 5px 5px rgba(0,0,0,0.05)
+}
+
+.JS-hackfix{
+  position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 130px;
+    left: 0px;
 }
