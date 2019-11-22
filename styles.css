@@ -57,18 +57,11 @@ nav{
 }
 
 .budget {
-    box-shadow: ;
     background-color: white;
-    width: 31.5%;
-    margin: 10px 10px 10px 0px;
-    float: left;
+    width: 30.5%;
+    margin: 10px 13.9px 10px 0px;
     height: 100px;
-}
-
-.budget_container{
-  position: relative;
-  background-color: black;
-  width: 100%;
+    display: inline-block;
 }
 
 .budget-name-amount{
@@ -120,7 +113,7 @@ button{
   display: inline-block;
   width: 45%;
   position: relative;
-  top: 238px;
+  top: 217px;
   margin-left: 30px;
 }
 
@@ -143,6 +136,7 @@ button{
 .left_body{
   display: inline-block;
   width:40%;
+  position: relative;
 }
 
 .account-cell-image{
