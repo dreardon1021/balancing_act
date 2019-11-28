@@ -8,3 +8,6 @@ function closeBanner(){
   banner.style.display = 'none';
   containerShift.style.bottom = '112px'
 };
+
+var clipboardButton = document.querySelector('#clipboard')
+var clipboardPage = document.querySelector('#clipboard-page')

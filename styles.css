@@ -22,6 +22,11 @@ main{
  margin-left: 8px;
 }
 
+.nav_logo:hover{
+  border-left: 2px solid turquoise;
+  padding-left: 5px
+}
+
 #elephant{
   width: 50px;
   height: 50px;
@@ -100,25 +105,19 @@ button{
   border-bottom: 2px solid #CCCCCC;
 }
 
-.clearfix{
-  display: block;
-  content: '';
-  clear: both;
-}
-
 .account{
   width: 98%;
 }
 
 .transactions-container{
-display: inline-block;
-width: 38%;
-position: relative;
-padding: 15px;
-top: 252px;
-margin-left: 30px;
-background-color: white;
-box-shadow:10px 5px 5px rgba(0,0,0,0.05)
+  display: inline-block;
+  width: 38%;
+  position: relative;
+  padding: 0px 15px 25px 15px;
+  top: 250px;
+  margin-left: 30px;
+  background-color: white;
+  box-shadow: 10px 5px 5px rgba(0,0,0,0.05);
 }
 
 .transactions-td{
@@ -138,6 +137,16 @@ box-shadow:10px 5px 5px rgba(0,0,0,0.05)
 .transactions-td-dash-outflow{
   position: absolute;
   right: 40px;
+}
+
+.transactions-td-dash-inflow2,{
+  position: relative;
+  right:;
+}
+
+.transactions-td-dash-outflow2{
+  position: relative;
+  right:;
 }
 
 .left_body{
@@ -181,8 +190,84 @@ h3{
   position: relative;
 }
 
-h1{
+#index-header{
     position: absolute;
     top: 130px;
     left: 0px;
+}
+
+.transactions2-button{
+  width: 100px;
+  position: relative;
+  left: 135px;
+}
+
+#transactions2-page{
+  position: relative;
+  left: 115px;
+}
+
+
+#transaction-form{
+  background-color: white;
+  width: 30%;
+  display: inline-block;
+  position: absolute;
+  top: 105px;
+  box-shadow: 10px 5px 5px rgba(0,0,0,0.05);
+  margin-left: 197px;
+  height: 90%;
+}
+
+label, select, option, input{
+  display: block;
+  width: 70%;
+  height: 25px;
+  margin: 8px 5px 5px 5px;
+  font-size: 14px;
+  position: relative;
+  left: 55px;
+}
+
+#transactions2-header, .transactions2-button{
+  display: inline-block;
+}
+
+#new-transaction2{
+  position: relative;
+  left: 115px;
+}
+
+
+.transactions2, .transactions-row{
+  border-collapse: collapse;
+  border-bottom: 2px solid #CCCCCC;
+  width: 100%;
+}
+
+.transactions2{
+  position: relative;
+  left: 34px;
+  top: 25px;
+}
+
+#log-expense-button{
+  position: relative;
+  left: 57px;
+  width: 40%;
+  display: block;
+  margin-top: 30px;
+}
+
+.transactions2-container{
+display: inline-block;
+width: 40%;
+}
+
+#transactions2-background{
+  position: absolute;
+  width: 45%;
+  height: 640px;
+  box-shadow:10px 5px 5px rgba(0,0,0,0.05);
+  background-color: white;
 }
