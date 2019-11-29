@@ -13,7 +13,7 @@
       <img id="elephant" src="assets/images/elephant.svg" alt="elephant_logo" />
       <div id="center_nav">
         <img id="clipboard" class="nav_logo" src="assets/images/dashboard.svg" alt="dashboard" />
-        <img class="nav_logo" src="assets/images/transactions.svg" alt="transactions" />
+        <img id="wallet" class="nav_logo" src="assets/images/transactions.svg" alt="transactions" />
         <img class="nav_logo" src="assets/images/profile.svg" alt="profile">
       </div>
     </nav>
@@ -44,10 +44,12 @@
 
         <section class="accounts-container">
             <h2 class"accounts_header">Accounts</h2>
-            <button class="accounts-button" type="button" name="manage_accounts">MANAGE ACCOUNTS</button>
+            <button class="accounts-button" type="button" name="manage_accounts">
+              MANAGE ACCOUNTS</button>
           <table class="account">
             <tr>
-              <td class="account-cell-image"><img class="accounts_images" src="assets/images/checking.svg"
+              <td class="account-cell-image"><img class="accounts_images"
+                src="assets/images/checking.svg"
                 alt="checking_account" /></td>
               <td class="account-cell-2">Wells Fargo</td>
               <td class="account-cell-3">Checking</td>
@@ -55,7 +57,8 @@
           </table>
           <table class="account">
             <tr>
-              <td class="account-cell-image"><img class="accounts_images" src="assets/images/savings.svg"
+              <td class="account-cell-image"><img class="accounts_images"
+                src="assets/images/savings.svg"
                 alt="savings_image"></td>
               <td class="account-cell-2">Wells Fargo</td>
               <td class="account-cell-3">Savings</td>
@@ -63,14 +66,16 @@
           </table>
           <table class="account">
             <tr>
-              <td class="account-cell-image"><img class="accounts_images" src="assets/images/credit-card.svg" alt="credit_card" /></td>
+              <td class="account-cell-image"><img class="accounts_images"
+                src="assets/images/credit-card.svg" alt="credit_card" /></td>
               <td class="account-cell-2">Amazon Credit</td>
               <td class="account-cell-3">Credit Card</td>
             </tr>
           </table>
           <table class="account">
             <tr>
-              <td class="account-cell-image"><img class="accounts_images" src="assets/images/credit-card.svg" alt="credit_card" /></td>
+              <td class="account-cell-image"><img class="accounts_images"
+                src="assets/images/credit-card.svg" alt="credit_card" /></td>
               <td class="account-cell-2">Southwest Credit</td>
               <td class="account-cell-3">Credit Card</td>
             </tr>
@@ -83,7 +88,8 @@
           <table class="transactions">
             <tr>
               <td><h2>Recent Transactions</h2></td>
-              <td><button id="transaction-button" type="button" name="new_transactoion">NEW TRANSACTION</button></td>
+              <td><button id="transaction-button" type="button"
+                name="new_transactoion">NEW TRANSACTION</button></td>
             </tr>
             <tr class="transactions-row">
               <td class="transactions-td">Date</td>
@@ -146,6 +152,150 @@
               <td class="transactions-td">$6.00</td>
             </tr>
           </table>
+        </section>
+      </div>
+      <div id="transactions2-page">
+      <div class="transactions2-container">
+        <h1 id="transactions2-header">Transactions</h1>
+        <button class="transactions2-button" type="button" name="all">All</button>
+        <button class="transactions2-button" type="button" name="inflow">Inflow</button>
+        <button class="transactions2-button" type="button" name="outflow">Outflow</button>
+      <div id="transactions2-background">
+      </div>
+        <section>
+          <table class="transactions2">
+            <tr class="transactions-row">
+              <td class="transactions-td">Date</td>
+              <td class="transactions-td">Account</td>
+              <td class="transactions-td">Payee</td>
+              <td class="transactions-td">Inflow</td>
+              <td class="transactions-td">Outflow</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-25-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Target</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$82.35</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-24-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Express</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$212.24</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-22-19</td>
+              <td class="transactions-td">Checking</td>
+              <td class="transactions-td">Paycheck</td>
+              <td class="transactions-td">$1,319.12</td>
+              <td class="transactions-td-dash-outflow2">-</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-21-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Trader Joe's</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$54.92</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-20-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Shell</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$46.23</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-19-19</td>
+              <td class="transactions-td">Savings</td>
+              <td class="transactions-td">Rent</td>
+              <td class="transactions-td">$800.00</td>
+              <td class="transactions-td-dash-outflow2">-</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-19-19</td>
+              <td class="transactions-td">Checking</td>
+              <td class="transactions-td">Hapa Sushi</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$13.97</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-18-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Pig Train</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$4.83</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-18-19</td>
+              <td class="transactions-td">Checking</td>
+              <td class="transactions-td">RTD</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$6.00</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-24-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Express</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$212.24</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-24-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Express</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$212.24</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-24-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Express</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$212.24</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-24-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Express</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$212.24</td>
+            </tr>
+            <tr class="transactions-row">
+              <td class="transactions-td">10-24-19</td>
+              <td class="transactions-td">Credit Card</td>
+              <td class="transactions-td">Express</td>
+              <td class="transactions-td-dash-inflow2">-</td>
+              <td class="transactions-td">$212.24</td>
+            </tr>
+          </table>
+        </section>
+      </div>
+        <section id="transaction-form">
+          <form>
+            <h2 id="new-transaction2">New Transaction</h2>
+            <label> Type of Transaction:</label>
+            <select name="type-of-transaction">
+              <option value="placehold">Expense</option>
+            </select>
+            <label>Category:</label>
+            <select name="category">
+              <option value="placehold">-Select One-</option>
+            </select>
+            <label>Account Form:</label>
+            <select name="acount-form">
+              <option value="placehold">-Select One-</option>
+            </select>
+            <label>Payee:</label>
+              <input type="text" name="Payee">
+            <label>Outflow:</label>
+              <input type="text" name="Outflow">
+            <label>Inflow:</label>
+              <input type="text" name="Inflow">
+            <button id="log-expense-button" type="button" name="Log Expense">
+              Log Expesne</button>
+          </form>
         </section>
       </div>
       </main>
