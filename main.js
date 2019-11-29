@@ -30,5 +30,5 @@ function addWallet(){
   walletButton.style.borderLeft =  '2.25px solid turquoise';
   clipboardButton.style = 'none';
   transactions2Page.style.display = 'block';
-  clipboardPage.style.display = 'none';
+  clipboardPage.style.display = 'none'
 }
